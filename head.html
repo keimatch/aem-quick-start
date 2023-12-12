@@ -8,7 +8,11 @@
 <link rel="stylesheet" href="/styles/styles.css" />
 
 <script>
+  function randomValue() {
+    return Math.floor(Math.random() * 4) + 1;
+  }
+
   var segmentdata = {
-    personalize_pattern_id: 1,
+    personalize_pattern_id: randomValue(),
   };
 </script>
